@@ -95,6 +95,7 @@ mkdir -p $DEVEL_DEST_DIR/usr/share/doc/pulsar-client-dev-$VERSION
 ls $CPP_DIR/lib/libpulsar*
 
 cp -ar $CPP_DIR/include/pulsar $DEVEL_DEST_DIR/usr/include/
+cp build/include/pulsar/Version.h $DEVEL_DEST_DIR/usr/include/
 cp $CPP_DIR/lib/libpulsar.a $DEVEL_DEST_DIR/usr/lib
 cp $CPP_DIR/lib/libpulsarwithdeps.a $DEVEL_DEST_DIR/usr/lib
 cp $CPP_DIR/lib/libpulsar.so $DEST_DIR/usr/lib
